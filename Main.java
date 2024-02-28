@@ -40,8 +40,10 @@ public class Main {
 
             bag.addData(testing);
         }
+
+        //Bingung Buk Cara Delete bagDelet, gk paham
         bag.addData(new BarangBag("pena", "1579", "Alat Tulis", 10));
-        BarangBag bagDelet = (new BarangBag("pena", "1579", "Alat Tulis", 10));
+        BarangBag bagDelet = new BarangBag("pena", "1579", "Alat Tulis", 10);
 
         bag.displaySort();
 
